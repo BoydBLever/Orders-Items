@@ -56,6 +56,7 @@ public class TestOrders {
 
         // Cindhuri's order is now ready. Update her status.
         order1.ready = true;
+        order2.ready = true;
 
         // Sam ordered more drinks - 2 lattes. Update their order as well.
         order4.items.add(item2);
